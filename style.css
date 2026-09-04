@@ -622,12 +622,13 @@ section {
   width: 100%;
   max-width: 380px;
   height: auto;
-  max-height: 550px;
+  aspect-ratio: 3 / 4;
   border-radius: 20px;
   border: 2px solid var(--card-border);
   box-shadow: 0 20px 60px rgba(0, 212, 255, 0.2);
   transition: all 0.3s ease;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: center top;
 }
 
 .about-image img:hover {
